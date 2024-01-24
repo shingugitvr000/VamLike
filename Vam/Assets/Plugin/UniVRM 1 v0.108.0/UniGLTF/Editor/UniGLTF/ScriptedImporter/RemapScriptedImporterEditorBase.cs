@@ -44,15 +44,16 @@ namespace UniGLTF
             m_editMap.AddRange(value.Select(kv => new RemapEditorBase.SubAssetPair(kv.Key, kv.Value)));
         }
 
-        /// <summary>
-        /// Revert
-        /// </summary>
-        protected override void ResetValues()
-        {
-            m_editMap.Clear();
+        ///// <summary>
+        ///// Revert
+        ///// </summary>
+        
+        //protected override void ResetValues()
+        //{
+        //    m_editMap.Clear();
 
-            base.ResetValues();
-        }
+        //    base.ResetValues();
+        //}
 
         public override bool HasModified()
         {
